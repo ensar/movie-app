@@ -70,3 +70,8 @@ nav{
         display: none;
     }
 }
+@media screen and (max-width:414px){
+    .search{
+        width: 130px;
+    }
+}

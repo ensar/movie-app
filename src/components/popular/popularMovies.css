@@ -89,3 +89,8 @@ h2{
   font-size: 15px;
   
 }
+@media screen and (max-width:360px){
+    .movie{
+       min-width:340px
+    }
+}

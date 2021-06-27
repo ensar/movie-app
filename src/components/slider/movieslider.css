@@ -73,9 +73,44 @@
         ,transparent,rgba(37,37,37,.61),rgba(1, 1, 1,.7));
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:320px){
     .movieCard{
-        right:20px;
-        
+        width: 200px;
+        bottom: 20px;
+        right: 60px;
+    }
+    .movieCard h1{
+        font-size: 18px;
+    }
+    .movieCard p{
+        font-size: 12px;
+    }
+   
+}
+
+@media screen and (min-width:321px) and ( max-width:414px){
+    .movieCard{
+        width:200px;
+        bottom:90px;
+        right:90px
+    }
+    .movieCard h1{
+        font-size: 20px;
+    }
+    .movieCard p{
+        font-size: 14px;
     }
 }
+@media screen and (min-width:415px) and (max-width:600px){
+    .movieCard{
+        width: 240px;
+    }
+    .movieCard h1{
+        font-size: 21px;
+    }
+    .movieCard p{
+        font-size: 15px;
+    }
+}
+
+
